@@ -220,9 +220,9 @@ liensSupp.forEach(function (lien) {
 
 
 
-  var liensDesactiver = document.querySelectorAll("#desactive");
+  var liensDesactive = document.querySelectorAll("#desactive");
 
-  liensDesactiver.forEach(function(lien) {
+  liensDesactive.forEach(function(lien) {
     lien.addEventListener("click", function(event) {
       event.preventDefault();
 
@@ -244,6 +244,4 @@ liensSupp.forEach(function (lien) {
       });
     })
   });
-
-
 </script>

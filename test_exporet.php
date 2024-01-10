@@ -47,3 +47,4 @@ session_start();
     $_SESSION['envoie_reussi'] = true;
     header("Location:admin/mise_a_jour.php");
 ?>
+
