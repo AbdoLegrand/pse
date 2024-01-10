@@ -42,3 +42,4 @@ unlink($filePath);
 
 echo "Réponse de l'Application 2: $response";
 ?>
+

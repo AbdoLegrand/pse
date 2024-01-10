@@ -27,9 +27,11 @@ include_once("controller.php");
                         <?php
                             if (count($errors) > 0) {
                                 foreach ($errors as $displayErrors) {
-                            ?>
-                                    <div class="form-group me-4 ms-4"><?php echo $displayErrors; ?></div>
-                            <?php
+                                ?>
+                                    <div class="form-group me-4 ms-4">
+                                        <?php echo $displayErrors; ?>
+                                    </div>
+                                <?php
                                 }
                             }
                             ?>

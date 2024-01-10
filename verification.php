@@ -15,7 +15,7 @@ include_once("controller.php");
                            if ($errors > 0) {
                               foreach ($errors as $displayErrors) {
                            ?>
-                                    <div id="alert"><?php echo $displayErrors; ?></div>
+                                    <div id="alert" class="form-group me-4 ms-4"><?php echo $displayErrors; ?></div>
                            <?php
                               }
                            }

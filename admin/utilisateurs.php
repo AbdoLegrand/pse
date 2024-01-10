@@ -163,6 +163,7 @@ if (isset($_SESSION['desactive_non_autorise']) && $_SESSION['desactive_non_autor
 
 
 <script>
+
  var liensSupp = document.querySelectorAll("#supprimer");
 
 liensSupp.forEach(function (lien) {
@@ -244,6 +245,4 @@ liensSupp.forEach(function (lien) {
       });
     })
   });
-
-
 </script>
