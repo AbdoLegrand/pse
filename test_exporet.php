@@ -5,7 +5,7 @@ $dbPassword = '';
 $dbName = 'pse'; 
 
 $fileName = 'backup-' . date('Y-m-d') . '.sql';
-$filePath = 'C:\\Users\\HP_LAPTOP\\Downloads\\' . $fileName;
+$filePath = 'C:\\Users\\lapto\\Downloads\\' . $fileName;
 
 // Supprimer un fichier existant avant de créer un nouveau
 if (file_exists($filePath)) {
@@ -41,5 +41,10 @@ curl_close($curl);
 unlink($filePath);
 
 echo "Réponse de l'Application 2: $response";
+
+session_start();
+
+    $_SESSION['envoie_reussi'] = true;
+    header("Location:admin/mise_a_jour.php");
 ?>
 
