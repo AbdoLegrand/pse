@@ -17,8 +17,11 @@
   <link rel="stylesheet" href="CSS/data_table.css">
   <link rel="stylesheet" href="CSS/data_table_boostrapp.css">
   <!-- end css for table-data -->
-  <script src="../JS/sweetalert2.js"></script>
-  <style>
+
+
+  <script src="../node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+
+<style>
     .logo {
       display: flex;
       align-items: center;

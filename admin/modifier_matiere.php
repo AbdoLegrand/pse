@@ -148,7 +148,7 @@ if(isset($_POST['submit'])){
                             </div>
                         </div>
                         <button type="submit" name="submit" class="btn btn-gradient-primary me-2">Enregistrer</button>
-                        <a href="etudiant.php" class="btn btn-light">Cancel</a>
+                        <a href="matiere.php" class="btn btn-light">Cancel</a>
                     </form>
                   </div>
                 </div>

@@ -111,7 +111,7 @@ if($_SESSION["role"]!="admin"){
                             </div>
                         </div>
                         <button type="submit" name="button" class="btn btn-gradient-primary me-2">Enregistrer</button>
-                        <a href="etudiant.php" class="btn btn-light">Cancel</a>
+                        <a href="inscription.php" class="btn btn-light">Cancel</a>
                     </form>
                   </div>
                 </div>

@@ -21,19 +21,19 @@ if ($role != 1) {
 
       if(mysqli_num_rows($req_condition) > 0){
 
-        $sql2="UPDATE utilisateur SET utilisateur.active = 0 WHERE `utilisateur`.`id_user`= $id_user";
-        $req1=mysqli_query($conn,$sql2);
+        $sql2="UPDATE utilisateur SET active = 0 WHERE `id_user`= $id_user";
+        $req1=mysqli_query($conn, $sql2);
         if($req1){
-            header("location:utilisateurs.php");
             $_SESSION['desactive_reussi'] = true;
+            header("location:utilisateurs.php");
         }
     }else{
           
-        $sql2= "UPDATE utilisateur SET utilisateur.active = 1 WHERE `utilisateur`.`id_user`= $id_user";
-        $req1=mysqli_query($conn,$sql2);
+        $sql2= "UPDATE utilisateur SET active = 1 WHERE `id_user`= $id_user";
+        $req1=mysqli_query($conn, $sql2);
         if($req1){
-            header("location:utilisateurs.php");
             $_SESSION['active_reussi'] = true;
+            header("location:utilisateurs.php");
         }
     }
 

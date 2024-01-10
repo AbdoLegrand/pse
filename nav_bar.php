@@ -22,9 +22,8 @@
   <script src="Scripts/jquery-ui-1.12.1.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/commun.js"></script>
-  <script src="js/sweetalert2.js"></script>
 
-
+  <script src="/node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
 
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
