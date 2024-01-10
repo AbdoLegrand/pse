@@ -262,7 +262,7 @@ INSERT INTO `utilisateur` (`login`, `pwd`, `active`, `code`, `id_role`) VALUES
 ('22053@supnum.mr', '25f9e794323b453885f5181f1b624d0b', 1, '0', 3),
 ('22086@supnum.mr', '25f9e794323b453885f5181f1b624d0b', 1, '0', 3),
 ('22014@supnum.mr', '25f9e794323b453885f5181f1b624d0b', 1, '0', 3),
-('sidi.med@supnum.mr', '25f9e794323b453885f5181f1b624d0b', 1, '0', 3)
+('sidi.med@supnum.mr', '25f9e794323b453885f5181f1b624d0b', 1, '0', 2)
 ;
 
 -- --------------------------------------------------------
