@@ -92,7 +92,7 @@ while($row=mysqli_fetch_assoc($req)){
               </div>
               <?php
                     $req_detail = "SELECT DISTINCT id_matiere, code, matiere.libelle,
-                    specialite, nom_semestre,
+                    specialite,  nom_semestre,
                     nom_module FROM matiere INNER JOIN 
                     semestre USING(id_semestre) INNER JOIN
                     module USING(id_module) WHERE id_matiere = $id_matiere";
