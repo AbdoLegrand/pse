@@ -80,7 +80,7 @@ if (isset($_SESSION['ajout_user_reussi']) && $_SESSION['ajout_user_reussi'] === 
   echo "<script>
     Swal.fire({
         title: 'Ajout réussi !',
-        text: 'L\'utilisateur a été ajouté avec succès.',
+        text: 'L\'utilisateur a été ajouté avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -94,7 +94,7 @@ if (isset($_SESSION['mod_reussi']) && $_SESSION['mod_reussi'] === true) {
   echo "<script>
     Swal.fire({
         title: 'Modification réussi !',
-        text: 'L\'utilisateur a été modifier avec succès.',
+        text: 'L\'utilisateur a été modifier avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -108,7 +108,7 @@ if (isset($_SESSION['supp_reussi']) && $_SESSION['supp_reussi'] === true) {
   echo '<script>
     Swal.fire({
         title: "Suppression réussie !",
-        text: "L\'utilisateur a été supprimer avec succès.",
+        text: "L\'utilisateur a été supprimer avec succès 🎉🎉",
         icon: "success",
         confirmButtonColor: "#3099d6",
         confirmButtonText: "OK"
@@ -121,7 +121,7 @@ if (isset($_SESSION['desactive_reussi']) && $_SESSION['desactive_reussi'] === tr
   echo "<script>
     Swal.fire({
         title: 'Désactivation réussie !',
-        text: 'L'utilisateur a été désactive avec succès.',
+        text: 'L\'utilisateur a été désactive avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -135,7 +135,7 @@ if (isset($_SESSION['active_reussi']) && $_SESSION['active_reussi'] === true) {
   echo "<script>
     Swal.fire({
         title: 'Activation réussie !',
-        text: 'L\'utilisateur a été activer avec succès.',
+        text: 'L\'utilisateur a été activer avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
