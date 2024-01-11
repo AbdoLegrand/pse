@@ -77,7 +77,7 @@ if (isset($_SESSION['ajout_reussi']) && $_SESSION['ajout_reussi'] === true) {
     echo "<script>
     Swal.fire({
         title: 'Ajout réussi !',
-        text: 'L\'étudiant a été ajouté avec succès.',
+        text: 'L\'étudiant a été ajouté avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -92,7 +92,7 @@ if (isset($_SESSION['supp_reussi']) && $_SESSION['supp_reussi'] === true) {
     echo "<script>
     Swal.fire({
         title: 'Suppression réussie !',
-        text: 'L\'étudiant a été supprimé avec succès.',
+        text: 'L\'étudiant a été supprimé avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -107,7 +107,7 @@ if (isset($_SESSION['modifier_reussi']) && $_SESSION['modifier_reussi'] === true
     echo "<script>
     Swal.fire({
         title: 'Modification réussie !',
-        text: 'L\'étudiant a été modifié avec succès.',
+        text: 'L\'étudiant a été modifié avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
