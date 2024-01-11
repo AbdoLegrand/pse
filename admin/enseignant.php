@@ -70,11 +70,6 @@ $req = mysqli_query($conn , $req1);
     </div>
 </div>
 
-    <!-- sweetalert2 links -->
-
-    <script src="../JS/sweetalert2.js"></script>
-
-
 
 <?php
 //if (isset($_GET['succes']) && $_GET['succes'] == 1) {
@@ -83,7 +78,7 @@ if (isset($_SESSION['ajout_reussi']) && $_SESSION['ajout_reussi'] === true) {
     echo "<script>
     Swal.fire({
         title: 'Ajout réussi !',
-        text: 'L\'enseignant a été ajouté avec succès.',
+        text: 'L\'enseignant a été ajouté avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -99,7 +94,7 @@ if (isset($_SESSION['supp_reussi']) && $_SESSION['supp_reussi'] === true) {
     echo "<script>
     Swal.fire({
         title: 'Suppression réussi !',
-        text: 'L\'enseignant a été supprimer avec succès.',
+        text: 'L\'enseignant a été supprimer avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -115,7 +110,7 @@ if (isset($_SESSION['modifier_reussi']) && $_SESSION['modifier_reussi'] === true
     echo "<script>
     Swal.fire({
         title: 'Modification réussi !',
-        text: 'L\'enseignant a été modifier avec succès.',
+        text: 'L\'enseignant a été modifier avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'

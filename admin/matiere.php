@@ -87,7 +87,7 @@ if (isset($_SESSION['ajout_reussi']) && $_SESSION['ajout_reussi'] === true) {
     echo "<script>
     Swal.fire({
         title: 'Ajout réussi !',
-        text: 'La matiére a été ajouté avec succès.',
+        text: 'La matiére a été ajouté avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -103,7 +103,7 @@ if (isset($_SESSION['supp_reussi']) && $_SESSION['supp_reussi'] === true) {
     echo "<script>
     Swal.fire({
         title: 'Suppression réussi !',
-        text: 'La matiére a été supprimer avec succès.',
+        text: 'La matiére a été supprimer avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -119,7 +119,7 @@ if (isset($_SESSION['modifier_reussi']) && $_SESSION['modifier_reussi'] === true
     echo "<script>
     Swal.fire({
         title: 'Modification réussi !',
-        text: 'La matiére a été modifier avec succès.',
+        text: 'La matiére a été modifier avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -136,7 +136,7 @@ if (isset($_SESSION['affecter_reussi']) && $_SESSION['affecter_reussi'] === true
     echo "<script>
     Swal.fire({
         title: 'Affectation réussi !',
-        text: 'La matiére a été affecter avec succès.',
+        text: 'La matiére a été affecter avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -179,29 +179,6 @@ liensArchiver.forEach(function(lien) {
       });
     });
 
-    
-$(document).ready(function(){
-    $('.search-text').on('input', function(){
-        var search = $(this).val();
-        if(search != '') {
-            $.ajax({
-                url:'matiere.php',
-                method:'POST',
-                data:{search:search},
-                success:function(response){
-                    $('tbody').html(response);
-                }
-            });
-        } else {
-            $.ajax({
-                url:'matiere.php',
-                method:'POST',
-                success:function(response){
-                    $('tbody').html(response);
-                }
-            });
-        }
-    });
-});
+   
    
 </script>

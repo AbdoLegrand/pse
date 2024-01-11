@@ -76,7 +76,7 @@ if (isset($_SESSION['ajout_reussi']) && $_SESSION['ajout_reussi'] === true) {
   echo "<script>
     Swal.fire({
         title: 'Ajout réussi !',
-        text: 'Le groupe a été ajouté avec succès.',
+        text: 'Le groupe a été ajouté avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -92,7 +92,7 @@ if (isset($_SESSION['supp_reussi']) && $_SESSION['supp_reussi'] === true) {
   echo "<script>
     Swal.fire({
         title: 'Suppression réussi !',
-        text: 'Le groupe a été supprimer avec succès.',
+        text: 'Le groupe a été supprimer avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
@@ -108,7 +108,7 @@ if (isset($_SESSION['modifier_reussi']) && $_SESSION['modifier_reussi'] === true
   echo "<script>
     Swal.fire({
         title: 'Modification réussi !',
-        text: 'Le groupe a été modifier avec succès.',
+        text: 'Le groupe a été modifier avec succès 🎉🎉',
         icon: 'success',
         confirmButtonColor: '#3099d6',
         confirmButtonText: 'OK'
