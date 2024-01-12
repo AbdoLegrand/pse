@@ -20,6 +20,11 @@ $query = "SELECT * FROM `matiere` WHERE id_matiere = $id_matiere  ";
 $result = mysqli_query($conn, $query);
 $student = mysqli_fetch_assoc($result);
 ?>
+<style>
+    #i{
+        margin-right: 20px;
+    }
+</style>
 <body>
 
 
@@ -73,7 +78,7 @@ if(isset($_POST['submit'])){
                       <form action="" method="POST" class="forms-sample">
                       <div class="form-group">
                         <label for="exampleInputName1">Code de Matière</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Code de Matière" name="codematieres" value="<?= $student["code"]; ?>" value="<?=$row['nom']?>">
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Code de Matière" name="codematieres" value="<?= $student["code"]; ?>" >
                       </div>
                       <div class="form-group">
                         <label for="exampleInputName1">Libellé</label>
@@ -135,8 +140,11 @@ if(isset($_POST['submit'])){
                                                     while ($row_matiere = mysqli_fetch_assoc($matiere_qry)) :
                                                 ?>
                                                 <div>
-                                                    <?=$row['nom']." ".$row['prenom']?>
-                                                    <a href="supprimer_affectation.php?id_ens=<?=$row['id_ens']?>&id_matiere=<?=$row['id_matiere']?>"onclick="return confirm(`voulez-vous vraiment supprimé cet enseignant ?`)" ><img style="width: 18px; margin-left:110px;" title="Supprimer" src="images/close.png" alt=""></a><br><br>
+                                                    <a href="supprimer_affectation.php?id_ens=<?=$row['id_ens']?>&id_matiere=<?=$row['id_matiere']?>"onclick="return confirm(`voulez-vous vraiment supprimé cet enseignant ?`)" >  
+                                                     <i id="i" class="mdi mdi-delete-forever"></i>
+                                                    </a>
+                                                <?=" ".$row['nom']." ".$row['prenom']?>
+                                                                <br><br>
                                                 </div>
                                             <?php endwhile;?>
                                             <?php
