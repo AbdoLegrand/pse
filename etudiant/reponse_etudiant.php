@@ -432,7 +432,7 @@ if (mysqli_num_rows($req) == 0) {
                         confirmButtonColor: "#3099d6",
                         cancelButtonColor: "#d33",
                         cancelButtonText: "Annuler",
-                        confirmButtonText: "Confirmer"
+                        confirmButtonText: "Supprimer"
                     }).then((result) => {
                         if (result.isConfirmed) {
                             window.location.href = this.href;
